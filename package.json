@@ -1,0 +1,17 @@
+{
+  "name": "motorway",
+  "version": "1.0.0",
+  "description": "Tech test API for motorway",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "Tanner Wilson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "pg": "^8.11.5"
+  },
+  "type": "module"
+}
